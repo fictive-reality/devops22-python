@@ -1,28 +1,20 @@
 # About Git
 
+## Make a fork of the course repository
+
+Go to https://github.com/fictive-reality/devops22-python and click the fork button in the upper right corner. This creates a linked copy of the repository on your GitHub profile.
+
 ## Get a copy of the course repository
 
-The command `git clone` will create a local copy of a repository. I.e for this project you can use `git clone git@github.com:fictive-reality/devops22-python.git` if you have a [ssh-key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh) setup in GitHub. If you prefer to use a access token or username & password (not recommended), use `git clone https://github.com/fictive-reality/devops22-python.git` *NOTE* that there is a difference in the protocol part of the url (https vs git), this determines which authentication method is used.
+First, in the termnal, navigate to a folder where you want to keep your code, e.g. `~/repos` on Mac/Linux or `C:/Users/USERNAME/My Documents/code` on Windows. To create a new folder, write `mkdir FOLDERNAME`. Make sure you have entered the folder (`cd FOLDER` to change to that folder).
 
-```bash
-# I recommend you to create a folder in i.e you home folder, that is named repos. i.e on linux/mac
-mkdir -p ~/repos
-
-# Change directory to the folder where you want to store your project
-cd ~/repos/
-
-# To clone this course repository use
-git clone git clone git@github.com:fictive-reality/devops22-python.git
-
-# alternatively
-git clone https://github.com/fictive-reality/devops22-python.git
-```
+The command `git clone` will create a local copy of a repository. To get the correct URL to clone, go to your new forked repository (would typically be on the URL https://github.com/YOUR-USERNAME/devops22-python). Click the green button that says "Code" and select the HTTPS method to clone. Type the command in the terminal.
 
 If you use `git clone <url>` without options, it will create a folder named as the repository, i.e in this example the folder name will be `devops22-python`.
 
 ## Configure Git
 
-Before you commit you should config your `user.name` and `user.email`.
+Before you commit you should config your `user.name` and `user.email`. Email should match your email used on GitHub, otherwise GitHub cannot understand it's you.
 
 ```bash
 # Set globally, i.e same for all
