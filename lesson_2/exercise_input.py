@@ -6,9 +6,6 @@
 #str1 = "troca"
 #print("troca"*2)
 
-from tkinter import Y
-
-
 print('Skriv ett ord:')
 x = input()
 print(x)
