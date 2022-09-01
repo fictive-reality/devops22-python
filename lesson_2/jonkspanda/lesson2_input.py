@@ -9,7 +9,7 @@ print(number * 2)
 
 #Print string twice
 word = input("Pick a random word: ")
-print(word + word)
+print(f"{word} {word}")
 
 #Print float divided by 3.5
 float_number = input("Pick a random number with decimals: ")
