@@ -1,0 +1,8 @@
+a = ("Hello world")
+print (a * 2)
+
+b = (10)
+print (b * 2 )
+
+c = 10.433
+print (c / 3.5)
