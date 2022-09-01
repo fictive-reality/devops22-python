@@ -1,8 +1,11 @@
-a = ("Hello world")
-print (a * 2)
+a = input ("Skriv ditt namn här \n\n")
+print (a)
 
-b = (10)
-print (b * 2 )
+b = int(input("\nSkriv ditt nummer här \n\n"))
+print (b * 2)
 
-c = 10.433
-print (c / 3.5)
+c = input ("Hello \n\n")
+print (c * 2)
+
+d = float(input("Skriv ett nummver här för att dividera med 3.5 \n\n"))
+print (d / 3.5)

@@ -1,0 +1,53 @@
+# Fråga 1
+#a = 5
+#b = a
+#a = 7
+#c = a + b
+#print (c)
+
+# Fråga 2
+#A = 7 * 3 + 1
+#print (A)
+
+# Fråga 3
+#A = 20/4*2
+#print (A)
+
+# Fråga 3
+#A = 20/4
+#B = (A * 2)
+#print (B)
+
+# Fråga 4
+#A = 1
+#B = A
+#A = A + B
+#B = A + B
+#C = A + B
+#print (C) 
+
+# Fråga 5
+#A = ("Hello world")
+#print (A)
+
+# Fråga 6
+# Detta är ett additions-program
+
+from tkinter import N
+
+
+print ("please enter number")
+tal_1 = input ("vilket tal? \n")
+tal_2 = input ("\nVilket tal? ")
+sum = int(tal_1) + int(tal_2)
+
+print(sum)
+
+#if (tal_1 < tal_2):
+    #diff = int(tal_1) - int(tal_2)
+    #print ("skillnaden är",diff)
+
+#if (tal_1 > tal_2):
+    #diff = int(tal_2) - int(tal_2)
+    #print ("skillnaden är",diff)
+
