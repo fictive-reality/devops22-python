@@ -4,14 +4,14 @@ print(1)
 #print float
 print(1.2)
 
-#print ftring
+#print string
 print("string")
 
 #print boolean
 print(True)
 
 #print nonetype
-print(0)
+print(None)
 
 #print f-string
-print(f' 1 1.2 "string" True 0')
+print(f' {int(1), float(1.2), "string", bool(True), None}')
