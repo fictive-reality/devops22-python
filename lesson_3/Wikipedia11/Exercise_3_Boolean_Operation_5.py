@@ -2,5 +2,5 @@ x = False
 y = True
 z = True
 
-results = x or y or z
+results = x and y and z
 print({results})
