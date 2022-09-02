@@ -18,6 +18,7 @@
 ## GitHub
 
 - Git repositories located at [GitHub](https://github.com/)
+- Tutorial on [forks](https://www.earthdatascience.org/workshops/intro-version-control-git/about-forks/) and on contributing to other repositories with [pull requests](https://www.earthdatascience.org/workshops/intro-version-control-git/pull-request/)
 
 ### Markdown
 
