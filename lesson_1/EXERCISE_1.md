@@ -55,4 +55,4 @@ git --version
 #### Hand in instructions markdown
 
 - [ ]  Provide a screenshot of the Visual Studio preview of your markdown
-- [ ]  Provide a screenshot of the GitHub repository showing your HELLO.md
+- [ ]  Provide a screenshot of the GitHub repository showing your HELLO.mdcd

@@ -1,6 +1,6 @@
 # Print a string
 print("hello world")
-
+print("hello world")
 # Print a expression
 print(1+2)
 
