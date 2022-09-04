@@ -104,3 +104,12 @@ print(f"The smallest number in the list is {minim}")
 # 14.2 Print the max value in the list
 maxim = max(random_list)
 print(f"The biggest number in the list is {maxim}")
+
+
+# Exercise 5 Sorting
+In LINKS_3.md there is a link Python guide how-to do sorting. Create a list containing 10 car brand. i.e cars = ["volvo", ...]
+
+Sort the list with sorted(cars)
+Sort the list with cars.sort()
+reverse the sort of both, read more about reversing in python docs ascending-and-descending
+Extra exercise, create a list of 10 tuples containing (brand, model), i.e ("volvo", "xc90"). Sort first on brand, then on model.
