@@ -44,12 +44,14 @@ if result == True:
     print("6. The thing it's false")
 else: print("6. Not false")
 """
-
+"""   
 # Exercise 4
 # 1 Create a empty list
 list = list()
+
 # 2 Create a string that is a color e.g "red"
 color = "red"
+
 # 3 Add the color to your list
 list.append(color)
 # 4 Print the color from the list using Common Sequence Operations indexing for 0 i.e my_list[0]
@@ -104,12 +106,26 @@ print(f"The smallest number in the list is {minim}")
 # 14.2 Print the max value in the list
 maxim = max(random_list)
 print(f"The biggest number in the list is {maxim}")
-
+"""
 
 # Exercise 5 Sorting
-In LINKS_3.md there is a link Python guide how-to do sorting. Create a list containing 10 car brand. i.e cars = ["volvo", ...]
-
-Sort the list with sorted(cars)
-Sort the list with cars.sort()
-reverse the sort of both, read more about reversing in python docs ascending-and-descending
-Extra exercise, create a list of 10 tuples containing (brand, model), i.e ("volvo", "xc90"). Sort first on brand, then on model.
+# In LINKS_3.md there is a link Python guide how-to do sorting. 
+# Create a list containing 10 car brand. i.e cars = ["volvo", ...]
+long_car_list = ["Dacia","Lamborghini", "Audi", "Skoda", "Trabant", "Aro", "Mercedes", "Opel", "Citroen", "Renault"]
+# Sort the list with sorted(cars)
+sorted = sorted(long_car_list)
+print(f"The long car list {long_car_list}")
+print(f"The first sort of the long car list {sorted}")
+# Sort the list with cars.sort()
+sorted_2 = long_car_list.sort()
+print(f"The second sort of the long car list {long_car_list}")
+# reverse the sort of both, read more about reversing in python docs ascending-and-descending
+print("The list sorted:")
+print(sorted)
+# Extra exercise, create a list of 10 tuples containing (brand, model), i.e ("volvo", "xc90"). 
+# Sort first on brand, then on model.
+print("Tuple list")
+tuple_list = [("Dacia", "Logan"), ("Lamborghini", "Diablo"), ("Audi", "A6"), ("Skoda", "Octavia"), ("Opel", "Astra")]
+print(tuple_list)
+sort_brand = sorted(tuple_list)
+sort_model = tuple_list.sort()
