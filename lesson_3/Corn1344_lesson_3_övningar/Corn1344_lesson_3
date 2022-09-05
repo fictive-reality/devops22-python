@@ -1,0 +1,59 @@
+
+
+
+X = 1
+Y = 4
+addresses = {"Adam": "Ormvägen 5",
+"Bella": "Klockgatan 1",
+"Cornelia": "Vikingagatan 3",}
+cars = ["Volvo", "Opel", "BMW"]
+numbers1 = {1, 2, 3, X, 6}
+numbers2 = {Y, 2, 3, 4, 7}
+print (addresses["Adam"])
+print (cars[0])
+print (len(addresses))
+#last_key = sorted(addresses)[-1]
+#print(addresses[last_key])
+name = {v: k for k, v in addresses.items()}
+first_name = sorted(name)[0]
+#print(name[first_name])
+#print(cars[X])
+cars.sort()
+print (cars[0])
+cars_2 = list(cars)
+cars.append("saab")
+cars_3 = list(cars)
+cars = cars*2
+cars.sort(reverse=True)
+print (cars)
+unique_cars = set(cars)
+print (unique_cars)
+print (numbers1)
+print (numbers1.intersection(numbers2))
+print (numbers1.union(numbers2))
+print (numbers1 ^ numbers2)
+
+#UPPGIFT A
+# Fråga 1: Numeriska
+# Fråga 2: String
+# Fråga 3: print (addresses["Bella"])
+# Fråga 4: Man lägger till daniel i listan
+# Fråga 5: print (len(addresses)
+# Fråga 5.1: last_key = sorted(addresses)[-1]
+# Fråga 5.2:name = {v: k for k, v in addresses.items()}
+# first_name = sorted(name)[0]
+# Fråga 6: list
+# Fråga 7: Eftersom X är definerat som x=1, därav, skriver vi print (cars[X]) printar vi den andra bilen i listan "Cars" då 0 = första i listan.
+# Fråga 8: Det blir "IndexError: list index out of range" pga att listan inte innehåller mer än 0 - 2 bilar, därav finns det inget att hämta.
+# Fråga 9: Vi sorterar bilarna i alfabetisk ordning, däraav får man resultatet BMW då B kommer förs i alfabetet.
+# Fråga 10: Eftersom cars_2 pekar på cars blir det direkt uppdaterat från cars, om man istället säger att cars_2 ska bli en ny lista med en kopia av innehållet från cars kan man istället lägga till en string i ena variabeln utan att den andra påverkas.
+# Fråga 10.1: cars_3 = list(cars), samma princip som 10.1
+# Fråga 10.2: cars = cars*2 #cars.sort(reverse=True) #print (cars) utöka variabeln till att multipliceras med 2 för att sedan sortera med reverse.
+# Fråga 10.3: unique_cars = set(cars), print (unique_cars)
+# Fråga 11: Ett set
+# Fråga 12: Integers och variablar
+# Fråga 13: 2 och 3, print (numbers1.intersection(numbers2)), man kan, när man använder sig av intersection mycket, med fördel använda "&" tecknet för att korta ner och komprimera koden.
+# Fråga 14: print (numbers1.union(numbers2)) 
+# Fråga 15: print (numbers1 ^ numbers2), 1, 4, 6, 7
+
+#UPPGIFT B

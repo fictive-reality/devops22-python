@@ -1,0 +1,47 @@
+people = []
+
+
+name = input("\nPlease enter name for person 1: ").lower()
+age = input(f"How old is {name}?: ")
+size = input(f"What is {name}'s shoesize?': ")
+
+people.append({"name": name, "age": age, "size": size})
+
+name = input("\nPlease enter name for person 2: ").lower()
+age = input(f"How old is {name}?: ")
+size = input(f"What is {name}'s shoesize?': ")
+
+people.append({"name": name, "age": age, "size": size})
+
+name = input("\nPlease enter name for person 3: ").lower()
+age = input(f"How old is {name}?: ")
+size = input(f"What is {name}'s shoesize?': ")
+
+people.append({"name": name, "age": age, "size": size})
+
+
+oldest = max(people, key=lambda person: int(person["age"]))
+
+
+median_size = sorted(people, key=lambda person: int(person["size"]))[len(people)//2]
+
+print(f"\nThe oldest person is {oldest['name'].title()} who has shoe size {oldest['size']}")
+print(f"The person with median shoe size is {median_size['name'].title()} who is "
+      f"{median_size['age']} years old\n")
+
+user_input = input("Please enter search value, name, age or size followed by value: ").lower().split(" ")
+
+
+try:
+    result = list(filter(lambda person: person[user_input[0]] == user_input[1], people))
+except KeyError:
+    print("Invalid input")
+else:
+    list(map(lambda person: print(f"\nFound person:\n"
+                                      f"  Name: {person['name'].title()}\n"
+                                      f"  Age: {person['age']}\n"
+                                      f"  Size: {person['size']}"), result))
+
+    len(result) == 0 and print("Failed to locate anyone based on search criteria")
+finally:  
+    print("\nThank you for using my program")
