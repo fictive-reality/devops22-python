@@ -51,8 +51,9 @@ while True:
 
 # Working as intended.
 # i found the line "random_index = random.randint(0,len(num_list)-1)" searching on google but i do understand what it does.
-# It goes into a module and pulls out a random int which im using as a index for my list
-
+# It goes into a module and pulls out a random int which im using as a index for my list, i could even use this module without my list
+# for it to be completly random
+"""
 num_list = [1, 6, 8, 9, 45, 44, 75, 23, 76, 60, 78, 23, 70]
 random_index = random.randint(0,len(num_list)-1)
 
@@ -64,12 +65,29 @@ while True:
     else:
         print("Not allowed!")
         break
-
+"""
 # -----------------------------Exercise 5-----------------------------
 
+# Using a for loop, write a program that for each number in second_list, retrieves
+# the number and its position in first_list and writes the result as a list of tuples.
+# Example:
 
+# Output: [(2, 3), (3, 0), (6, 4), (7, 1), (9, 2)]
+""""
+first_list = [3, 7, 9, 2, 6]
+second_list = [2, 3, 6, 7, 9]
+list_1 = list() # Creating a empty list to store all the tuples
 
+i = 0 # THis is the counter, it needs to start a 0
 
+# The program will go on until the counter reaches the same number as there are values in second_list, for this exemple its 5.
+# 
+while i < len(second_list):
+    tuple_1 = (first_list[i], second_list[i]) 
+    list_1.append(tuple_1) # Adding the tuples to the list
+    i += 1 # Counter goes up by one
+print(list_1)
+"""
 # -----------------------------Exercise 6-----------------------------
 
 
