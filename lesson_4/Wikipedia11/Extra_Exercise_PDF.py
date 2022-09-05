@@ -1,5 +1,6 @@
 import random
 from re import X
+from tkinter import N
 
 # -----------------------------Exercise 1-----------------------------
 """"
@@ -24,18 +25,17 @@ for i in range(10):
 # 88888888
 # 999999999
 # for loop med range, printa med string *n
+""""
+num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+n = 0
 
+for n in num_list:
+    print((str(n) * n))
+    n += 1
+#print(str(number * str(i)))
+"""
 # -----------------------------Exercise 3-----------------------------
-
-"""# while True:
-    # word = input("Please enter a word. To stop, enter 'stop': ")
-    # if word == "stop":
-        # break
-    # else:
-    #   len_word = len(word)
-    #   print(f"The word is {word}, which has {len_word} characters")
-    #   print("Enter 'stop' to quit")
-
+"""
 while True:
     user_num = int(input("Enter a integer: "))
     if user_num == 74:
@@ -105,7 +105,7 @@ print(list_1)
 # Output example:
 # My_basket = ['apple', 'orange', 'pear', 'banana', 'grapes', 'apple',
 # 'orange', 'pear']
-
+"""
 fruit = ['apple', 'orange', 'pear', 'banana', 'grapes']
 fruit_list = list()
 slots = int(input("How many slots for fruits do you have in your basket? "))
@@ -118,7 +118,7 @@ while True:
     else:
         print(f"Your basket is full\nIt contains {fruit_list}")
         break
-
+"""
 # -----------------------------Exercise 8-----------------------------
 
 # Write a program that uses nested while loops to print all prime numbers
@@ -139,4 +139,20 @@ while True:
         print(prim_tal[j])
         j += 1
     i += 1
+"""
+
+# Not my solution, i just copied it to figure it out.
+
+""""
+primes = []
+p = 2
+
+while p < 100:
+    n = 2 
+    while p%n != 0:
+        n += 1
+    if (n == p):
+        primes.append(p)
+    p += 1
+print(primes)
 """
