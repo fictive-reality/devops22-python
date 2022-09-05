@@ -1,3 +1,6 @@
+from ast import operator
+
+
 fruit = ['apple', 'orange', 'pear', 'banana', 'grapes']
 fruit_list = list()
 slots = int(input("How many slots for fruits do you have in your basket? "))
@@ -10,3 +13,4 @@ while True:
     else:
         print(f"Your basket is full\nIt contains {fruit_list}")
         break
+
