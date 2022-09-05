@@ -1,0 +1,18 @@
+#Ask the user for a name
+#Create a tuple with at least five names
+#If the user input is in the tuple, print the text "Welcome {name} your are on the list".
+#If the user input is not in the tuple, print "Sorry, you are not on the list".
+
+a = "Fabian"
+b = "David"
+c = "Hugo"
+d = "Martin"
+f = "Daniel"
+
+
+name = str(input("Please enter your name: "))
+list = (a,b,c,d,f)
+
+if name in list:
+    print("Hello and welcome, your name is on the list")
+else: print("Sorry, your name is not on the list")
