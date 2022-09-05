@@ -59,5 +59,3 @@ while number != 69:
     if number == 69:
         print("You guessed right!")
         break
-
-#4
