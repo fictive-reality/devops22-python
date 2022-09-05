@@ -10,4 +10,3 @@ while True:
     else:
         print(f"Your basket is full\nIt contains {fruit_list}")
         break
-    s
