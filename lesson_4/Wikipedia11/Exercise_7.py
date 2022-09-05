@@ -4,10 +4,9 @@ slots = int(input("How many slots for fruits do you have in your basket? "))
 
 i = 0
 while True:
-    if i <= slots:
+    if i < slots:
         fruit_list.append(fruit[i])
         i += 1
     else:
-        print("Your basket is full")
-        print(f"It contains {fruit_list}")
+        print(f"Your basket is full\nIt contains {fruit_list}")
         break
