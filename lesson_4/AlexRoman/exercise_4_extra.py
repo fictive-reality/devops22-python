@@ -51,4 +51,4 @@ print("-----------------")
 # 8. Skriv ett program som använder sig av nästlade while-loopar för att skriva ut alla primtal som är mindre än 100.
 
 print("Problem 8")
-print("---------------")
+print("-----------------")
