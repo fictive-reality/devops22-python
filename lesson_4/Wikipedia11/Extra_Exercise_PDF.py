@@ -1,4 +1,5 @@
 import random
+from re import X
 
 # -----------------------------Exercise 1-----------------------------
 """"
@@ -90,16 +91,52 @@ print(list_1)
 """
 # -----------------------------Exercise 6-----------------------------
 
-
-
+# SKipping this for now
+# Might give it a go later
 
 # -----------------------------Exercise 7-----------------------------
 
+# You have the following list of fruits:
+# fruit = ['apple', 'orange', 'pear', 'banana', 'grapes']
+# Write a program that asks the user by how many slots for fruit he has in his
+# basket, and then you fill this basket (a list) with fruits by looping through
+# the fruit list until the basket list is full.
+# Output example:
+# My_basket = ['apple', 'orange', 'pear', 'banana', 'grapes', 'apple',
+# 'orange', 'pear']
 
+fruit = ['apple', 'orange', 'pear', 'banana', 'grapes']
+fruit_list = list()
+slots = int(input("How many slots for fruits do you have in your basket? "))
 
+i = 0
+while True:
+    if i <= slots:
+        fruit_list.append(fruit[i])
+        i += 1
+    else:
+        print("Your basket is full")
+        print(f"It contains {fruit_list}")
+        break
 
 # -----------------------------Exercise 8-----------------------------
 
+# Write a program that uses nested while loops to print all prime numbers
+# which is less than 100.
+# Guidance: A prime number is a number that is greater than 1 and cannot be evenly divided by
+# any number other than itself and 1. See wikipedia for how to calculate what is one
+# primes: https://sv.wikipedia.org/wiki/Primes
+# Examples of prime numbers are 2, 3, 5, 7, 11, 13, 17 and 19
+# 4, 6, 8, 9, 10, 12, 14, 15, 18 and 20 are not prime numbers (because eg 20/ 5 = 4, 14/7 = 2 etc.)
+"""
+prim_tal = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
+i = 0
+j = 0
 
-
+while True:
+    if i in prim_tal:
+        print(prim_tal[j])
+        j += 1
+    i += 1
+"""
