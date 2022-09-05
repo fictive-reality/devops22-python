@@ -1,0 +1,7 @@
+a = int(input("Write a number, odd or even: \n"))
+b = 2
+if (a % b) == 0:
+    print("This number is even")
+else: 
+    print("This number is odd")
+

@@ -1,0 +1,15 @@
+#Ask the user for a start and stop integer
+#Print every integer between start and stop. i.e. start = 1, stop = 5 would print:
+
+
+
+
+int1 = int(input("skriv en startsiffra här: "))
+print("")
+int2 = int(input("Skriv en slutsiffra här "))
+
+for total in range(int1, int2):
+    print (total)
+summa = sum(range(int1, int2))
+print (summa)
+

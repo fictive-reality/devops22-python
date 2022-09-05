@@ -1,0 +1,16 @@
+#Write a program that fulfills the specification:
+
+#Create a while loop that runs forever
+#In each iteration, input a text
+#In each iteration, print a text "Enter stop to quit: "
+#If the text equals stop, break the while loop
+#If the text don't equals stop, print the text and the length of the text
+
+condition = True
+while condition:
+    fråga = str(input("Om du vill fortsätta denna loop, skriv valfri text, om inte, skriv 'stop' ")).lower()
+    if fråga == ("ja"):
+        fråga = str(input("Om du vill fortsätta denna loop, skriv 'ja' om inte, skriv 'stop' ")).lower()
+    if fråga == ("stop"):
+        break
+    else: print(fråga, len(fråga))
