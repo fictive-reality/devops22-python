@@ -7,9 +7,9 @@ from tkinter import W
 number = int(input("Ange ett heltal: "))
 
 #Kontrollera om heltal är jämnt
-"""Kontrollen görs genom att kontrollera ifall slutprodukten är noll eller ej:
-slutprodukt = 0 så är talet jämt
-slutprodukt != 0 så är talet udda. """
+"""Kontrollen görs genom att kontrollera ifall produkten är noll eller ej:
+produkt = 0 så är talet jämt
+produkt != 0 så är talet udda. """
 if number % 2 == 0:
     print("Ditt angivna heltal är jämnt.")
 else:
