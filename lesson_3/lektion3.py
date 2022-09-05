@@ -8,5 +8,13 @@ numbers1 = {1, 2, 3, X, 6}
 numbers2 = {Y, 2, 3, 4, 7}
 #print (f' addresses ["Bella"]:{addresses["Bella"]}')
 addresses ["Daniel"] = "Prinsgränd 2"
-#print(f' {len(addresses)}')
-print ((addresses.keys()[-1]))
+#print(f'{len(addresses)}')
+#print (list (addresses.items())[-1][1])
+#addresses : addresses = {v: k for k, v in addresses.items() }
+#print (sorted (addresses)[0])
+#cars.sort()
+#print (cars [0])
+cars_2 = cars 
+cars.append("Saab")
+print (cars)
+print (cars_2)
