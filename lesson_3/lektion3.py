@@ -23,8 +23,8 @@ addresses ["Daniel"] = "Prinsgränd 2"
 #print (sorted (addresses)[0])
 cars.sort()
 #print (cars [0])
-cars_2 = cars 
-cars.append("Saab")
-cars_3 = copy(cars)
-cars_3.pop()
-print (cars,cars_2,cars_3)
+#cars_2 = cars 
+#cars.append("Saab")
+#cars_3 = copy(cars)
+#cars_3.pop()
+#print (cars,cars_2,cars_3)
