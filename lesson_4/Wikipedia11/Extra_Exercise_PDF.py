@@ -23,6 +23,7 @@ for i in range(10):
 # 7777777
 # 88888888
 # 999999999
+# for loop med range, printa med string *n
 
 # -----------------------------Exercise 3-----------------------------
 
