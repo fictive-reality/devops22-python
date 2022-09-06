@@ -2,6 +2,9 @@ import random
 
 # 1. Skriv ett program som hälsar användaren 10 gånger.
 print("Problem 1")
+salut = input("Please enter your name: ").capitalize()
+print(f"Variant 1. Welcome {salut * 10}")
+print(f"Variant 2. Welcome {salut * 10}")
 print("-----------------")
 # 2. Skriv ett program (med for-loop) som skriver ut följande:
 print("Problem 2")
