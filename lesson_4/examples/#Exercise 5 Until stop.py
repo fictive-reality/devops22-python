@@ -10,10 +10,10 @@
 # 
 
 x = str(input('Write a short text:'))
-y = str("stop").lower()
+y = str("stop")
 while x != y:
     print('Your wrote this text:',(x))
     print('Lenght of the text is:',len(x),'signs')
-    x = str(input('Enter stop to quit:'))
+    x = str(input('Enter stop to quit:')).lower()
     
 # this you can use when values are "wrong and you need to ask person again same question"
