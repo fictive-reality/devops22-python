@@ -19,7 +19,7 @@ for x in range(8):
 #Övning 3
 
 correct = 22
-guess = int(input("Enter an Integer: ")).strip()
+guess = int(input("Enter an Integer: "))
 
 while guess != correct:
     if guess < correct:
