@@ -1,7 +1,8 @@
-from operator import indexOf
+
 import random
-"""
+
 # 1. Skriv ett program som hälsar användaren 10 gånger.
+
 print("Problem 1")
 salut = input("Please enter your name: ").capitalize()
 print(f"Variant 1: Welcome {salut * 10}")
@@ -19,6 +20,7 @@ print("-----------------")
 # 3. Skriv ett program som låter användaren gissa vilket tal du tänker på tills användaren gissar rätt.
 #T alet har du hårdkodat in i programmet och gissningen från användaren hämtas in via input gång på gång 
 # tills dess att gissning == input.
+
 print("Problem 3")    
 random_number = random.randrange(0, 99)
 print(f"The random number is {random_number} just in case you panic")
@@ -35,6 +37,7 @@ print("-----------------")
 
 # 4. Skriv ett program som loopar över en lista innehållandes olika tal. Om programmet stöter på ett ojämnt tal skrivs 
 # orden “Not allowed!” ut och loopen avbryts.
+
 print("Problem 4")
 random_list = random.sample(range(1, 99), 7) # for testing with a random list
 print(random_list)
@@ -50,7 +53,7 @@ print("-----------------")
 
 # 5. Genom att använda en for-loop, skriv ett program som för varje tal i second_list, hämtar talet och dess position 
 # i first_list och skriver resultatet som en lista av tupler.
-"""
+
 print("Problem 5")
 first_list = [3, 7, 9, 2, 6]
 second_list = [2, 3, 6, 7, 9]
@@ -81,14 +84,32 @@ print(newlist)
 print("-----------------")
 
 # 7. Du har följande lista på frukter:
-fruits = ['apple', 'orange', 'pear', 'banana', 'grapes']
-#Skriv ett program som frågar användaren efter hur många platser för frukt hen har i sin korg,
+# fruits = ['apple', 'orange', 'pear', 'banana', 'grapes']
+# Skriv ett program som frågar användaren efter hur många platser för frukt hen har i sin korg,
 # och sedan fyller du denna korg (en lista) med frukter genom att loopa igenom frukt-listan tills dess 
 # att korg-listan är full.
 
 print("Problem 7")
+fruits = ['apple', 'orange', 'pear', 'banana', 'grapes']
+empty_places = int(input("How much space you have in your basket? "))
+# I'm gona bruteforce my way through this problem. Using more memory
+# I can fine tune the memory part but at the moment i can not come with a better algoritm
+all_shop = fruits * empty_places # i just extend the original list
+basket = all_shop[0 : empty_places] # and then i just make another list with the range i need
+print(f"Your basket is full of {empty_places} items and contain this : {basket}")
 print("-----------------")
+
 # 8. Skriv ett program som använder sig av nästlade while-loopar för att skriva ut alla primtal som är mindre än 100.
 
 print("Problem 8")
+prime = []
+for number in range(1, 101):
+    if( number > 1):
+        for i in range(2,number):
+            if (number % i) == 0:
+                break
+        else:
+            prime.append(number)
+print("The prime numbers under 100 are: ")
+print(prime)
 print("-----------------")
