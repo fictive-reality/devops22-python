@@ -31,3 +31,34 @@ while guess != correct:
 else:
     print("Congratulations! You´re correct!")
 
+#Övning 4
+
+# define list.
+
+list1 = [4,4,4,3,4]
+
+print("Kontrollerar udda tal i lista...")
+for n in list1:
+    if n % 2 != 0:
+        print("Not Allowed!")
+        break
+else:
+    print("No odd numbers found.")
+
+
+#Övning 7
+
+fruits = ['apple', 'orange', 'pear', 'banana', 'grapes']
+my_basket = []
+
+antal_frukter = int(input("Hur många frukter får du plats med i din korg? "))
+list_index = 0
+max_index = (len(fruits))
+
+while len(my_basket) < antal_frukter:
+    for x in range(antal_frukter):
+        my_basket.append(fruits[list_index])
+        list_index += 1
+        if list_index == max_index:
+            list_index = 0
+print(my_basket)
