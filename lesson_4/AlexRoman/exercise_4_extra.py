@@ -1,14 +1,20 @@
 import random
-
+"""
 # 1. Skriv ett program som hälsar användaren 10 gånger.
 print("Problem 1")
 salut = input("Please enter your name: ").capitalize()
-print(f"Variant 1. Welcome {salut * 10}")
-print(f"Variant 2. Welcome {salut * 10}")
+print(f"Variant 1: Welcome {salut * 10}")
+print("Variant 2: ")
+for i in range(10):
+    print(f"Welcome {salut}")
 print("-----------------")
+
 # 2. Skriv ett program (med for-loop) som skriver ut följande:
 print("Problem 2")
+for i in range(10):
+    print(f"{str(i) * i}")
 print("-----------------")
+
 # 3. Skriv ett program som låter användaren gissa vilket tal du tänker på tills användaren gissar rätt.
 #T alet har du hårdkodat in i programmet och gissningen från användaren hämtas in via input gång på gång 
 # tills dess att gissning == input.
@@ -25,16 +31,22 @@ while True:
     elif (guess > random_number):
         print("Wrong, it's lower. Try again")
 print("-----------------")
+
 # 4. Skriv ett program som loopar över en lista innehållandes olika tal. Om programmet stöter på ett ojämnt tal skrivs 
 # orden “Not allowed!” ut och loopen avbryts.
 print("Problem 4")
-random_list = random.sample(range(1, 99), 7)
+random_list = random.sample(range(1, 99), 7) # for testing with a random list
 print(random_list)
-while True:
-    if i in random_list(i) % 2 != 1:
+not_random_list = [1, 3, 5, 7, 9, 11, 13]
+print(not_random_list)
+for x in not_random_list:
+    if x % 2 != 1:
         print("Not allowed!")
         break
+    else:
+        print(x)
 print("-----------------")
+"""
 # 5. Genom att använda en for-loop, skriv ett program som för varje tal i second_list, hämtar talet och dess position 
 # i first_list och skriver resultatet som en lista av tupler.
 
