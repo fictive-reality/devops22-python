@@ -91,12 +91,16 @@ print("-----------------")
 
 print("Problem 7")
 fruits = ['apple', 'orange', 'pear', 'banana', 'grapes']
-empty_places = int(input("How much space you have in your basket? "))
-# I'm gona bruteforce my way through this problem. Using more memory
-# I can fine tune the memory part but at the moment i can not come with a better algoritm
-all_shop = fruits * empty_places # i just extend the original list
-basket = all_shop[0 : empty_places] # and then i just make another list with the range i need
-print(f"Your basket is full of {empty_places} items and contain this : {basket}")
+basket = list()
+empty_slots = int(input("How many slots do you have in your basket? "))
+i = 0
+while True:
+    if i < empty_slots:
+        basket.append(fruits[i % 5])
+        i += 1
+    else:
+        print(f"Your basket is filled with {empty_slots} items and contain this fruits : {basket}")
+        break
 print("-----------------")
 
 # 8. Skriv ett program som använder sig av nästlade while-loopar för att skriva ut alla primtal som är mindre än 100.
