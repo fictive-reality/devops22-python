@@ -1,3 +1,4 @@
+from operator import indexOf
 import random
 """
 # 1. Skriv ett program som hälsar användaren 10 gånger.
@@ -46,15 +47,39 @@ for x in not_random_list:
     else:
         print(x)
 print("-----------------")
-"""
+
 # 5. Genom att använda en for-loop, skriv ett program som för varje tal i second_list, hämtar talet och dess position 
 # i first_list och skriver resultatet som en lista av tupler.
-
+"""
 print("Problem 5")
+first_list = [3, 7, 9, 2, 6]
+second_list = [2, 3, 6, 7, 9]
+tuple_list = []
+
+for x in second_list:
+    if x in first_list:
+        y = first_list.index(x)
+        tuple_xy = (x, y)
+        tuple_list.append(tuple_xy)
+print(tuple_list)        
 print("-----------------")
+
 # 6. Upprepa uppgiften ovan, men använd denna gång list comprehension för att lösa problemet.
+
 print("Problem 6")
+first_list = [3, 7, 9, 2, 6]
+second_list = [2, 3, 6, 7, 9]
+newlist = []
+
+for x in second_list:
+    if x in first_list:
+        y = first_list.index(x)
+        tuple_xy = (x, y)
+        newlist.append(tuple_xy)
+        
+print(newlist)
 print("-----------------")
+
 # 7. Du har följande lista på frukter:
 fruits = ['apple', 'orange', 'pear', 'banana', 'grapes']
 #Skriv ett program som frågar användaren efter hur många platser för frukt hen har i sin korg,
