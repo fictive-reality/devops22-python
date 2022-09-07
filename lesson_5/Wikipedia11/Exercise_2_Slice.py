@@ -10,6 +10,31 @@
 # 4. Use slice to print a word backwards.
 # 5. Use slice to get the 5th character
 
+
+firstname = "Fredrik"
+lastname = "Magnusson"
+phone = "0046766331231"
+fullname = firstname + " " + lastname
+
+# ------------------------------------EXERCISE 1------------------------------------
+
+print(fullname[0:5])
+
 # ------------------------------------EXERCISE 2------------------------------------
+num_of_char = len(fullname) - 1
+print(fullname[1:num_of_char])
+
+# ------------------------------------EXERCISE 3------------------------------------
+num_of_char = len(fullname)
+print(fullname[::2])
+
+# ------------------------------------EXERCISE 4------------------------------------
+
+print(fullname[::-1])
+
+# ------------------------------------EXERCISE 5------------------------------------
+
+print(fullname[4])
+
 
 
