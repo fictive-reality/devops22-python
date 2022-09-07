@@ -81,7 +81,7 @@ print(type(numbers1))
 print(type(numbers2))
 
 #12 Vilka värden finns lagrade i variablerna numbers1 och numbers2?
-print(numbers1) #1, 2, 3, 4 
+print(numbers1) #1, 2, 3, 6 
 print(numbers2) #2, 3, 4, 7
 
 #13 Vad är snittet (intersection) mellan variablerna numbers1 och numbers2? 
