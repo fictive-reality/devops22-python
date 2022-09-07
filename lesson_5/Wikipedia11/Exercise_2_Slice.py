@@ -1,4 +1,6 @@
-# Slice can be used to get a substring, i.e to get all but last letter my_string[:-1], to get all except the first letter my_string[1:], to get three first letters my_string[:3]
+# Slice can be used to get a substring, i.e to get all but last letter my_string[:-1], 
+# to get all except the first letter my_string[1:], 
+# to get three first letters my_string[:3]
 
 # Docs about slice # https://docs.python.org/3/library/functions.html#slice
 
@@ -9,3 +11,5 @@
 # 5. Use slice to get the 5th character
 
 # ------------------------------------EXERCISE 2------------------------------------
+
+
