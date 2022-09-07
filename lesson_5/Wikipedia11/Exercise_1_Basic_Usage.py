@@ -9,4 +9,37 @@
     # 6.3 Using format, i.e print('{}'.format(firstname))
     # 6.4 Using printf (%) syntax, i.e print('A name %s' % firstname)
 
+firstname = "Fredrik"
+lastname = "Magnusson"
+phone = "0046766331231"
+
+
 # ------------------------------------EXERCISE 1------------------------------------
+
+print(firstname, lastname, phone)
+
+# ------------------------------------EXERCISE 2------------------------------------
+
+fullname = ""
+
+# ------------------------------------EXERCISE 3------------------------------------
+
+fullname = firstname + " " + lastname
+print(fullname)
+
+# ------------------------------------EXERCISE 4------------------------------------
+
+print(len(fullname))
+print(len(firstname))
+print(len(lastname))
+
+# ------------------------------------EXERCISE 5------------------------------------
+
+print(f"{fullname}\n{phone}")
+
+# ------------------------------------EXERCISE 6------------------------------------
+
+print(fullname + " " + phone)
+print(f"{fullname} {phone}")
+print("{}".format(fullname + " " + phone))
+print("%s" % fullname, phone)
