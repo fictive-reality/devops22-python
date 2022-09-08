@@ -27,6 +27,17 @@ end = int(input("Type an ending number: "))
 for i in range(start, end):
     print(i)
 
+#4
+start = int(input("Type your first number: "))
+end = int(input("Type your second number: "))
+
+total = 0
+for i in range(start, end):
+    print(i)
+    total += i
+print(f"Total is :{total}")
+
+
 #Exercise 5
 word = str()
 while word != "stop":
@@ -54,8 +65,10 @@ for i in range(0, 9):
 number = int()
 while number != 69:
     number = int(input("Enter an integer: "))
-    if number != 69:
-        print("Try again.")
     if number == 69:
         print("You guessed right!")
-        break
+    if number < 69:
+        print("It's higher.")
+    if number > 69:
+        print("It's lower.")
+
