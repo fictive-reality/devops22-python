@@ -17,3 +17,13 @@
 firstname = "john"
 lastname = "smith"
 tele = "00468123456789"
+
+print(f"{firstname} {lastname} {tele}")
+
+fullname = firstname + " " + lastname
+print(len(fullname))
+print(f"{fullname}\n{tele}")
+print(firstname + " " + lastname + " " + tele)
+print(f"{firstname} {lastname} {tele}")
+print('{}'.format(firstname + " " + lastname + " " + tele))
+print('%s' % f"{firstname} {lastname} {tele}")
