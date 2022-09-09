@@ -16,3 +16,11 @@ firstname = "john"
 lastname = "smith"
 tele = "00468123456789"
 fullname = firstname + " " + lastname
+print(fullname)
+print(fullname[0:6])
+last = len(fullname)-1
+print(fullname[1:last])
+upp = (fullname[::2]).upper()
+print(upp)
+print(firstname[::-1])
+print(tele[4])
