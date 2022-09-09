@@ -1,0 +1,10 @@
+firstname = "john"
+lastname = "smith"
+tele = "00468123456789"
+fullname = (firstname + " " + lastname)
+print(len(firstname + lastname + fullname))
+print(fullname + "\n" + tele)
+print(f"{fullname} \n{tele}")
+print('{}'.format(fullname) + "\n" + (tele))
+print('{0:s} {1:s} \n{2:s}'.format(firstname, lastname, tele))
+print("%s %s \n%s" % (firstname, lastname, tele))
