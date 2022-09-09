@@ -1,0 +1,6 @@
+car_price = input("Please enter the price of your new car: ").replace('£', '')
+if int(car_price) < 50000:
+    print ("\U0001F923")
+if int(car_price) >= 50000:
+    print ("\U0001f600")
+    print (car_price)
