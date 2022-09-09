@@ -72,3 +72,11 @@ while number != 69:
     if number > 69:
         print("It's lower.")
 
+#4
+numbers = [2, 6,10,14,18,21]
+
+for numbers in numbers:
+    print(numbers)
+    if numbers % 2:
+        print("Not allowed!")
+        break
