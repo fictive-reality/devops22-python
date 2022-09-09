@@ -1,0 +1,41 @@
+#name = 'Pelle'
+#family_name = 'Eriksson'
+#age = '50'
+            	
+#print (full_name = name + " " + family_name)
+#name + " är " + age + " år"     
+
+
+
+#name = 'Kalle'
+#family_name = 'Andersson'
+#age = 12
+            
+#print (name = f'{name} {family_name}' )   	
+#f'{name} är {age} år'
+
+
+
+
+
+#firstname = "john"
+#lastname = "smith"
+#tele = "00468123456789"
+#print(firstname+lastname+tele)
+
+
+
+#fname = ("John") 
+#lname = ("Smith")
+#fullname = fname + " " + lname
+#tele = "00468123456789"
+#print(fullname)
+#print (len(fname+lname))
+
+
+
+fname = ("John") 
+lname = ("Smith")
+s1=fullname = fname + " " + lname
+s2=tele = "00468123456789"
+print(s1,s2)
