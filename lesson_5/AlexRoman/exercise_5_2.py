@@ -9,3 +9,10 @@
 # Use slice to print a word backwards.
 # Use slice to get the 5th character
 ########################################################################################################
+
+
+
+firstname = "john"
+lastname = "smith"
+tele = "00468123456789"
+fullname = firstname + " " + lastname
