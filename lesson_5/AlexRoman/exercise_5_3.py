@@ -8,3 +8,14 @@
 # Depending on the price, respond with a matching emoji (you decide which ones) i.e if cost below 50000 
 # use one emoji, if is above another one
 ########################################################################################################################
+
+money_sign = "\U000020AC"
+thinking_sign = "\U0001F914"
+screaming_sign = "\U0001F631"
+price = int(input("How much did you pay for your car? "))
+print(f"Wow, did your car cost {price}{money_sign}?")
+if price > 50000:
+    print(f"{screaming_sign} Ouch, that was expensive.")
+    
+else:
+    print(f"{thinking_sign} Hmmm, i like it, maybe i should get one myself.")

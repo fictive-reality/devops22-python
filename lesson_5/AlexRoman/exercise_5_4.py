@@ -8,3 +8,13 @@
 # The boss calculates the percentage and respond yes or no, you decide which criteria the boss uses. 4 and 5 iterates 
 # in a loop until the employee quit or the boss accept the amount.
 ##############################################################################################################################
+
+
+salary = int(input("Please input your salary "))
+print(" Ok, so whe got to that time of the year when we have to see if you get a raise")
+print(f"Today you have a salary of {salary}")
+first = int(input("How much raise are you expecting?"))
+second = int(input("Unfortunatelly i have to refuse your proposal, other numbers in mind?"))
+percentage = int((second/(salary/100)))
+print(percentage)
+
