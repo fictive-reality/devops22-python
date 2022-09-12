@@ -11,7 +11,7 @@ stack.append(5)
 # The stack (list)
 print(stack)
 
-"""
+
 # Remove a element from the right side
 print(stack.pop())
 
@@ -27,6 +27,6 @@ print(stack)
 stack.pop()
 stack.pop()
 
-"""
+
 # Pop empty list generate IndexError
-# stack.pop()
+stack.pop()
