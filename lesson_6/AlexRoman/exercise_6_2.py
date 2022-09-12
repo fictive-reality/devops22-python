@@ -8,3 +8,5 @@
 #    1. In alphabetical order
 #    2. Shuffled
 #    3. In reversed alphabetical order
+
+# Start working on 6.2
