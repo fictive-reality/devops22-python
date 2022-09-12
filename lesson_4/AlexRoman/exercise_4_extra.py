@@ -1,4 +1,4 @@
-
+"""
 import random
 
 # 1. Skriv ett program som hälsar användaren 10 gånger.
@@ -102,7 +102,7 @@ while True:
         print(f"Your basket is filled with {empty_slots} items and contain this fruits : {basket}")
         break
 print("-----------------")
-
+"""
 # 8. Skriv ett program som använder sig av nästlade while-loopar för att skriva ut alla primtal som är mindre än 100.
 
 print("Problem 8")
@@ -116,4 +116,22 @@ for number in range(1, 101):
             prime.append(number)
 print("The prime numbers under 100 are: ")
 print(prime)
+print("-----------------")
+
+
+# 8 Solved in class
+print("Problem 8 Variant 2 Solved in class")
+prime2 = []
+i = 1
+while i < 100:
+    i += 1
+    j = 2
+    while j < i:
+        if i % j == 0:
+            break
+        j += 1
+    else:
+        prime2.append(i)
+        # print(i)
+print(prime2)
 print("-----------------")
