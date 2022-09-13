@@ -1,0 +1,33 @@
+import string
+
+def do_nothing():
+    pass
+do_nothing()
+
+def hello_world():
+    print("Hello World!")
+hello_world()
+
+def result():
+    print(1==1.0)
+result()
+
+def alphabet():
+    alphabet_az = (string.ascii_lowercase)
+    print(alphabet_az[::-1])
+alphabet()
+
+def name_hello(name):
+    print(f'Hello', name,'!')
+name_hello("Fabian")
+
+def capital (word):
+    word = str(word).upper()
+    print(word)
+capital("Hejsan Svejsan")
+
+def numbers_stop():
+    stop=101
+    for i in range(1,stop):
+        print(i)
+numbers_stop()
