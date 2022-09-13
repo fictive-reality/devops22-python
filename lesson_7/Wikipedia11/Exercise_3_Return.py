@@ -9,25 +9,46 @@
 # 8. Create a function that repeats a word multiple time, `word` and `repeat` is used as parameters. 
 # 8.1 If the word is hello and repeat is 3, it will print hello three times.
 
+import random
+
 # ------------------------------------EXERCISE 1------------------------------------
 
+def intiger():
+    return random.randint(0, 101)
 
 # ------------------------------------EXERCISE 2------------------------------------
 
+def tuple(x, y):
+    return (x, y)
 
 # ------------------------------------EXERCISE 3------------------------------------
 
+def boolean():
+    return False
 
 # ------------------------------------EXERCISE 4------------------------------------
 
+def float():
+    rand_float = random.random()
+    return rand_float
 
 # ------------------------------------EXERCISE 5------------------------------------
 
+def name(firstname, lastname):
+    return firstname + " " + lastname
 
 # ------------------------------------EXERCISE 6------------------------------------
 
+def area_rectangle(h, b):
+    return h * b
 
 # ------------------------------------EXERCISE 7------------------------------------
 
 
+def sum_int_list(num_list=[]):
+    return sum(num_list)
+
 # ------------------------------------EXERCISE 8------------------------------------
+
+def word_repeat(word, repeat):
+    return word * int(repeat)
