@@ -31,26 +31,31 @@ for name in long_list:
         
 count = Counter(count_names)
 common = count.most_common()
-
-
-print(common)
-
+name_list = [tup[0] for tup in common] # Use this to get the tuple index out
+shuffled = shuffle(name_list)
+list_lenght = len(name_list)
 
 print(f"The name count: {count_names}")
 print(separation)
+
 print(f"The most popular names: {count}")
 print(separation)
-print(f"The first 3 most polular names: {common[0:3]}")
+print(name_list)
+print(f"The first 3 most polular names: {name_list[0:3]}")
+print(separation)
 
+print(f"The least popular names: {name_list[list_lenght-2:]}")
+print(separation)
+
+print(f"Names in alphabetical order: {name_list.sort()}")
+print(separation)
+
+print(f"Names in shuffled order: {shuffled}")
+print(separation)
+
+print(f"Names reverse alphabetical order: {name_list[-1:]}")
 print(separation)
 
 
 
-print(f"Names in alphabetical order: {common.sort()}")
-print(f"Names in shuffled order: {common}")
-print(f"Names reverse alphabetical order: {common.reverse()}")
 
-
-
-# use this
-print([tup[0] for tup in common])
