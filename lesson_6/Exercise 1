@@ -1,0 +1,41 @@
+import random
+from random import sample
+from random import choices
+#list_numbers = list(range(1,100))
+
+#-----------Even-------------#
+list_numbers = list(range(2,60))
+for even in list_numbers:
+    if even %2 == 0:
+        print(even, end=", ")
+list_numbers2 = list(range(1,77))
+
+#------------odd--------------#
+print("\n")
+for odd in list_numbers2:
+    if odd %2 == 1:
+        print(odd, end=", ")
+
+#----------------Slumpmässig-----------#
+print("\n")
+slumpmässig1 = random.sample(range(1,300),100)
+#print(slumpmässig1)
+print("\n")
+slumpmässig2 = random.choices(range(1,300),k=100)
+#print(sorted(slumpmässig2))
+
+print("\n")
+list_colours_1 = ["Green", "Blue", "Purple", "Orange", "Pink"]
+list_colours_2 = ["Red"]
+
+#random.choices(list_colours_1)
+
+list_colours_2.extend(random.choices(list_colours_1, k=2))
+print(list_colours_2)
+list_colours_random = random.choices(list_colours_2, k=50)
+print(list_colours_random)
+
+print("\n")
+print(len(list_colours_1),set(list_colours_1))
+print(len(list_colours_2),set(list_colours_2))
+print(len(list_colours_random),set(list_colours_random))

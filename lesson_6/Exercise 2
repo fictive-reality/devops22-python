@@ -1,0 +1,29 @@
+from collections import Counter
+from operator import itemgetter
+
+import random
+namn =  random.choices(["johan", "lisa", "johan", "tove", "Fabian", "Hugo", "David"],k=100)
+
+count_namn = {}
+for count in namn:
+    if not count in count_namn:
+        count_namn[count] = 0
+    count_namn[count] += 1
+
+print(count_namn)
+c = Counter(count_namn)
+print("\n")
+print(c.most_common()[:3])
+print("\n")
+print(c.most_common()[::-1])
+print("\n")
+##Sorterat, alfabetisk ordning
+namn_sorterat = sorted(count_namn)
+print(namn_sorterat)
+##Slumpmässig ordning
+random.shuffle(namn_sorterat)
+print(namn_sorterat)
+##Sorterat, alfabetisk ordning, printat baklänges
+namn_sorterat = sorted(count_namn)
+print(namn_sorterat[::-1])
+

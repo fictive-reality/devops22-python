@@ -1,0 +1,9 @@
+from posixpath import split
+import string
+stack = []
+alphabet_string = string.ascii_lowercase
+alphabet = list(alphabet_string)
+for c in alphabet:
+    print(c)
+stack.append[alphabet[0:27]]
+print(stack)
