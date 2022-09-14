@@ -1,0 +1,10 @@
+from math import sqrt
+import py_compile
+from random import randint
+from calc import addition
+print(sqrt(16))
+print(randint(1,10))
+
+print(addition(10,5))
+
+

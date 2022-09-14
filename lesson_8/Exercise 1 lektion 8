@@ -1,0 +1,9 @@
+def check_if_float(x):
+    if isinstance(x, float):
+        print("This is a float")
+    else: 
+        raise ValueError("This is not a float! ")
+check_if_float(10)
+        
+
+

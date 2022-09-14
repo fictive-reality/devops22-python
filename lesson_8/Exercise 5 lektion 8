@@ -1,0 +1,8 @@
+list_input = [1,2,3,4,5,6,7,8,9,10]
+
+
+xy = lambda x: x + 1
+
+list_output = list(map(xy, list_input))
+
+print(list_output[1:])

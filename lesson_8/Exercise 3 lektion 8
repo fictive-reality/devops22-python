@@ -1,0 +1,18 @@
+from multiprocessing.sharedctypes import Value
+
+
+def try_except():
+    try:      
+        x = int(input("Skriv en siffra du vill dividera: "))
+        y = int(input("Skriv siffran du vill dividera siffra 1 med: "))
+        a = (x/y)
+        print(a)
+        pass
+    except ZeroDivisionError:   
+        print("Division by zero is not allowed")
+        return try_except()
+    except ValueError:
+        print("This is not an valid integer")
+        return try_except()
+    
+try_except()
