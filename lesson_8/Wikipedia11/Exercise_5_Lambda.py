@@ -6,16 +6,16 @@
 
 # ------------------------------------EXERCISE 1------------------------------------
 
-
+num_list = list(range(1, 11))
 
 # ------------------------------------EXERCISE 2------------------------------------
 
-
+l1 = lambda x: x + 1
 
 # ------------------------------------EXERCISE 3------------------------------------
 
-
+new_new_list = map(l1, num_list)
 
 # ------------------------------------EXERCISE 4------------------------------------
-
-
+# It seems like its important to print it as a list. Otherwise it does not work as intended
+print(list(new_new_list))
