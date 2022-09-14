@@ -1,19 +1,19 @@
 def integer_return():
-    print (int(1))
+    return (int(1))
 integer_return()
 ####
 def func_x_y(x, y):
     x = 10
     y = 5
-    print((x,y))
+    return((x,y))
 func_x_y(1,2)
 ####
 def boolean_value_1():
-    print(1==1.0)
+    return(1==1.0)
 boolean_value_1()
 ####
 def float_number():
-    print (float(10.5))
+    return (float(10.5))
 float_number()
 #####
 def fullname(first="Fabian",last="Lörstad"):
@@ -21,8 +21,7 @@ def fullname(first="Fabian",last="Lörstad"):
 #####
 def rectangle_area(l,w):
     a = l*w
-    print(f'The rectangle has an area of {a} m2')
-    return (l*w)
+    return (f'The rectangle has an area of {a} m2')
 rectangle_area(2,4)
 ##############################
 lista_1 = [1,2,3,4,5]
