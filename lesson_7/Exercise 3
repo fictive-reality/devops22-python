@@ -32,7 +32,7 @@ def list_argument(lista=[]):
     print (sum(lista))
 list_argument(lista_1)
 ###############################
-def repeat_word(ord="Hej", repeat=(3)):
+def repeat_word(ord,repeat):
     ord_repeat = (ord*repeat)
     print(ord_repeat)
 repeat_word("hej",10)

@@ -1,26 +1,17 @@
 
 import string
 
-def numbers_range():
-    start = 1
-    stop = 10
+def numbers_range(start=1,stop=11):
     for i in range(start,stop):
         print(i)
-numbers_range()
+numbers_range(12,200)
 
-def reverse_string(fras="Hejsan Svejsan",reverse=True):
+def reverse_string(fras,reverse):
     if reverse==True:
         print(fras[::-1])
     if reverse==False:
         print(fras)
-reverse_string()
-
-def reverse_string_not(fras="Hejsan Svejsan",reverse=False):
-    if reverse==True:
-        print(fras[::-1])
-    elif reverse==False:
-        print(fras)
-reverse_string_not()
+reverse_string("Hejsan Svejsan",False)
 
 
 
