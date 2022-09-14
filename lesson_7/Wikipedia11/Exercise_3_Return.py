@@ -18,6 +18,9 @@ def intiger():
 
 # ------------------------------------EXERCISE 2------------------------------------
 
+# No need for () here, if wrote with a "," it'll will always be
+# returned as a tuple
+
 def tuple(x, y):
     return (x, y)
 
