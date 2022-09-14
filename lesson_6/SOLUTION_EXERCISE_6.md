@@ -11,7 +11,7 @@ Todays exercises requires that you generate test data. You can generate data in 
 1. Generate a list containing the numbers 1, 2, 3 to 100.
 
     ```Python
-    list(range(1, 1010))
+    list(range(1, 101))
     ```
 
 2. Generate a list of all even numbers from 2 to 60
@@ -70,7 +70,9 @@ Todays exercises requires that you generate test data. You can generate data in 
 
         ```Python
         # Code from above
-        print(f'{len(colors)} {", ".join(set(colors))}')
+        unique_colors = set(colors)
+        colors_string = ", ".join()
+        print(f'{len(colors)} {colors_string}')
         print(f'{len(new_list)} {", ".join(set(new_list))}')
         print(f'{len(random_colors)} {", ".join(set(random_colors))}')
         ```
