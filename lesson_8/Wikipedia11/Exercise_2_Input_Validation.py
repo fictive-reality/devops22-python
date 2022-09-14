@@ -6,8 +6,17 @@
 
 # ------------------------------------EXERCISE 1------------------------------------
 
-
-
+def int_num():
+    while True:
+        try:
+           user_input = int(input("Give me an int: "))       
+        except ValueError:
+            print("Sorry, you need to give me an int!")
+        else:
+            if user_input % 2 == False:
+                print("Even number is not allowed")
+            if user_input % 2 == True:
+                break
 # ------------------------------------EXERCISE 2------------------------------------
 
 
