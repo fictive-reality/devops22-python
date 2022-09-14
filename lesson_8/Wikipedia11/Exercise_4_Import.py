@@ -5,18 +5,23 @@
 #    2. Add a function add that takes arguments x, y and return x + y.
 #    3. Import and use the function from `calc.py`
 
-
+from math import sqrt
+from random import randint
+from calc import addition
 # ------------------------------------EXERCISE 1------------------------------------
 
-
+print(sqrt(16))
 
 # ------------------------------------EXERCISE 2------------------------------------
 
-
+randomint = randint(1, 10)
+print(randomint)
 
 # ------------------------------------EXERCISE 3------------------------------------
 
+print(addition(2, 2))
 
+print(sqrt(addition(2, 6)))
 
 # ------------------------------------EXERCISE 3.1------------------------------------
 
