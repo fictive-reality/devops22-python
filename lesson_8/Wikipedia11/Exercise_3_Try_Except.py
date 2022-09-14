@@ -7,18 +7,11 @@
 
 # ------------------------------------EXERCISE 1------------------------------------
 
-
-
-# ------------------------------------EXERCISE 2------------------------------------
-
-
-
-# ------------------------------------EXERCISE 3------------------------------------
-
-
-
-# ------------------------------------EXERCISE 4------------------------------------
-
-
-
-# ------------------------------------EXERCISE 5------------------------------------
+def try_except(x, y):
+    try:
+        sum = round(x / y, 2)
+        result = print(f"result: {sum}")
+    except ZeroDivisionError:
+        print("Division by 0 is not allowed")  
+    except TypeError:
+        print("Your Y value is a string, it needs to be a int.")
