@@ -40,3 +40,18 @@ while decision != 'YES':
             f"You ask for a increase of {percentage}%, the answer is {decision}!")
 
 ```
+
+## Extra extra - Exercise 3 Strängmetoder
+
+```python
+start = "Jag tYcker om äGg"
+goal = "jAG tYCKER iNTE oM SPAM"
+words = start.split()
+print(words)
+words[0] = words[0].swapcase()
+words[1] = words[1].capitalize().swapcase()
+words.insert(2, "inte".capitalize().swapcase())
+words[3] = words[3].capitalize().swapcase()
+words[4] = "SPAM"
+print(" ".join(words))
+```
