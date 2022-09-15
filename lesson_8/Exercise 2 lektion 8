@@ -3,21 +3,20 @@ import string
 
 
 def int_input(text):
-       # number = None
-        while True:
-            try:
-                my_number = int(input(text))
-                break
-            except ValueError:
-                print("Not a valid integer!")
-            except:
-                raise Exception
-            return int_input(text)
-        if (my_number % 2 == 0):
-            print("Even numbers is not allowed!")
-            return int_input(text)
-        else:
-            return my_number
+    while True:
+        try:
+            my_number = int(input(text))
+            break
+        except ValueError:
+            print("Not a valid integer!")
+        except:
+            raise Exception
+        return int_input(text)
+    if (my_number % 2 == 0):
+        print("Even numbers is not allowed!")
+        return int_input(text)
+    else:
+        return my_number
 my_number = int_input("Enter a number: ")
 print(f'result: {my_number}')
 
