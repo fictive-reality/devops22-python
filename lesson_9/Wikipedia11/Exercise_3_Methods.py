@@ -10,8 +10,6 @@
 #    1. a square with side 2 and calculate the area & circumference
 #    2. a square with side 3.5 and calculate the area & circumference
 
-
-
 # ------------------------------------EXERCISE 1------------------------------------
 
 class Square:
