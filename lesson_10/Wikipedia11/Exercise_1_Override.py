@@ -6,14 +6,45 @@
 
 # ------------------------------------EXERCISE 1------------------------------------
 
+class Dog:
+    def __init__(self, size):
+        self.size = size
+        self.breed = None
+
+    def woof(self):
+        print(self)
+        print("Woof")     
+        
+        
+    @classmethod
+    def create_dog(cls, size, breed):
+        clazz = cls(size)
+        clazz.breed = breed
+        return clazz
+    
+    def __str__(self):
+        return f"{self.size} - {self.breed}"
+
+class Pitbull(Dog):
+    
+    def woof(self):
+        print(self)
+        print("WOOF BITCH")
 
 
-# ------------------------------------EXERCISE 2------------------------------------
+def a_dog():
+    dobberman = Dog.create_dog("Big", "Dobberman")
+    dobberman.woof()
+
+def a_angrier_dog():
+    pitbull = Pitbull.create_dog("Super big", "Pitbull")
+    pitbull.woof()
+
+def main():
+    a_dog()
+    a_angrier_dog()
+    
+if __name__ == "__main__":
+    main()
 
 
-
-# ------------------------------------EXERCISE 3------------------------------------
-
-
-
-# ------------------------------------EXERCISE 4------------------------------------
