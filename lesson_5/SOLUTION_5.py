@@ -18,17 +18,17 @@ print ( f"{fullname}\n{tele}")
 
 # 6. Write the fullname and tele with the four different methods:
 #    1. Only using print() and string concatenation i.e "firstname" + " " ..
-print(firstname + " " + lastname)
+print(fullname + ", tel: " + tele)
 #    2. Using f-string
-print(f"{firstname} {lastname}")
+print(f"{fullname}, tel: {tele}")
 
 #    3. Using format, i.e print('{}'.format(firstname))
 
-print("{first} {last}".format(first=firstname, last=lastname))
+print("{}, tel: {}".format(fullname, tele))
 
 #    4. Using printf (%) syntax, i.e print('A name %s' % firstname)
 
-print("%s %s" % (firstname, lastname))
+print("%s, tel: %s" % (fullname, tele))
 
 ### `Exercise 2` Slice
 
