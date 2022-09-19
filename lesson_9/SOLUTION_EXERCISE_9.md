@@ -59,7 +59,7 @@ class MyClass:
     ```Python
     # To test your code, you can create a main
 
-    class MyCLass:
+    class MyClass:
         pass
 
 
