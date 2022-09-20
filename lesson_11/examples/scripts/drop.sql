@@ -1,0 +1,2 @@
+-- SQLite
+DROP TABLE person;

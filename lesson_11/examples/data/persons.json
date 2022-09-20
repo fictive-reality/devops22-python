@@ -1,0 +1,19 @@
+{
+    "persons": [
+        {
+            "firstname": "pelle",
+            "lastname": "svensson",
+            "year_of_birth": 1994
+        },
+        {
+            "firstname": "olle",
+            "lastname": "svensson",
+            "year_of_birth": 1943
+        },
+        {
+            "firstname": "nisse",
+            "lastname": "svensson",
+            "year_of_birth": 1967
+        }
+    ]
+}
