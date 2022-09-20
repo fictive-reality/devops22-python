@@ -1,0 +1,17 @@
+#Print
+a = 50.45
+print (a)
+
+b = 50
+print (b)  
+
+msg = ("Hej jag heter Fabian")
+print (msg)
+
+boolean2 = (10 <=100)
+print (boolean2)
+
+x = None
+print (x)
+
+print (f"{a} {b} {msg} {boolean2} {x}")
