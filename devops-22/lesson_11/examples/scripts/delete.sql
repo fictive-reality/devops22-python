@@ -1,2 +1,0 @@
--- SQLite
-DELETE FROM person 
