@@ -12,6 +12,8 @@ If you want to save your work, you will need to create a branch.
 
 see studentportalen `Datatyper_extra_övning.pdf`
 
+<<<<<<< HEAD:exclude/lesson_3/SOLUTION_EXERCISE_3.md
+=======
 ### `Exercise 3` Boolean Operations - and, or, not
 
 ```python
@@ -57,6 +59,7 @@ Write a expression with Boolean Operations that:
 (not (x and y and z))
 ```
 
+>>>>>>> 073f9f3d51ec4b0b50d147039a039c3ad6300803:lesson_3/SOLUTION_EXERCISE_3.md
 ### `Exercise 5` Sorting
 
 In LINKS_3.md there is a link Python guide how-to do [sorting](https://docs.python.org/3/howto/sorting.html). Create a list containing 10 car brand. i.e cars = ["volvo", ...]
